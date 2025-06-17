@@ -1,0 +1,38 @@
+# Openai Chat API
+### 我的名字叫小明，你叫什么名字？
+POST http://localhost:10001/ai/v3/chat/t1
+Content-Type: application/json
+
+{
+"text": "我的名字叫小明，你叫什么名字？",
+"stream": false,
+"conversationId": "bnA9f525-l7ae-5c66-ae21-vh53547c96cf"
+}
+
+### 我是谁？
+POST http://localhost:10001/ai/v3/chat/t1
+Content-Type: application/json
+
+{
+"text": "我是谁？",
+"stream": false,
+"conversationId": "bnA9f525-l7ae-5c66-ae21-vh53547c96cf"
+}
+
+### 我们之间的第一句问话是什么？
+POST http://localhost:10001/ai/v3/chat/t1
+Content-Type: application/json
+
+{
+"text": "我们之间的第一句问话是什么？",
+"stream": false,
+"conversationId": "bnA9f525-l7ae-5c66-ae21-vh53547c96cf"
+}
+
+
+
+
+
+
+
+
