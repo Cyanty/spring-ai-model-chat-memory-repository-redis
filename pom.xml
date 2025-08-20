@@ -15,6 +15,14 @@
         <module>use-case</module>
     </modules>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Spring AI Redis Chat Memory Cyanty GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Cyanty/spring-ai-model-chat-memory-repository-redis</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -147,13 +155,5 @@
 
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>Spring AI Redis Chat Memory Cyanty GitHub Packages</name>
-            <url>https://maven.pkg.github.com/Cyanty/spring-ai-model-chat-memory-repository-redis</url>
-        </repository>
-    </distributionManagement>
 
 </project>
