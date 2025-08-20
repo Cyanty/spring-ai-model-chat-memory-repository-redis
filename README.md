@@ -16,11 +16,21 @@ This project provides a Redis-based implementation of Spring AI's ChatMemoryRepo
 ### 1. Add Dependency
 
 ```xml
-<dependency>
-    <groupId>org.example</groupId>
-    <artifactId>spring-ai-starter-model-chat-memory-repository-redis</artifactId>
-    <version>${project.parent.version}</version>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>com.github.cyanty</groupId>
+        <artifactId>spring-ai-starter-model-chat-memory-repository-redis</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+</dependencies>
+
+<repositories>
+    <repository>
+        <id>github</id>
+        <name>Spring AI Redis Chat Memory Cyanty GitHub Packages</name>
+        <url>https://maven.pkg.github.com/Cyanty/spring-ai-model-chat-memory-repository-redis</url>
+    </repository>
+</repositories>
 ```
 
 ### 2. Configure Redis Connection
