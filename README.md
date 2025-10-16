@@ -1,5 +1,7 @@
 # Redis Chat Memory Repository for Spring AI (v1.0.0)
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Cyanty/spring-ai-model-chat-memory-repository-redis)
+
 ## Overview
 
 This project provides a Redis-based implementation of Spring AI's ChatMemoryRepository interface, enabling storage of conversation histories for AI chat applications. 
@@ -75,3 +77,4 @@ RedisChatMemoryRepository.builder().redisTemplate(redisTemplate).build();
 ## License
 
 This project is released under the Apache License 2.0.
+
